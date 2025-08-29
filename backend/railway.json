@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "mvn spring-boot:run",
+    "startCommand": "java -Dserver.port=$PORT -jar target/*.jar",
     "restartPolicyType": "ON_FAILURE"
   }
 }
