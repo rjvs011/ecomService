@@ -1,7 +1,7 @@
 # Commands to connect to GitHub (run these after creating GitHub repo)
 
-# Replace 'your-username' and 'your-repo-name' with actual values
-git remote add origin https://github.com/your-username/your-repo-name.git
+# Connect to your GitHub repository
+git remote add origin https://github.com/rjvs011/ecomService.git
 
 # Push main branch
 git push -u origin main
