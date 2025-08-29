@@ -1,0 +1,10 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "serve -s build"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "build"
+}
