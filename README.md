@@ -106,10 +106,19 @@ Ecom/
 
 ## Deployment
 
-The application is ready for deployment on:
-- Backend: Heroku, AWS, or any Java hosting platform
-- Frontend: Vercel, Netlify, or any static hosting
-- Database: AWS RDS, Google Cloud SQL, or any MySQL hosting
+### Production Stack
+- **Backend**: Heroku (Spring Boot)
+- **Frontend**: Vercel (React TypeScript)
+- **Database**: Supabase (PostgreSQL)
+
+### Quick Deploy
+1. **Follow the guide**: [`FULL_STACK_DEPLOYMENT.md`](FULL_STACK_DEPLOYMENT.md)
+2. **Backend**: [`backend/HEROKU_DEPLOYMENT.md`](backend/HEROKU_DEPLOYMENT.md)
+3. **Frontend**: [`frontend/VERCEL_DEPLOYMENT.md`](frontend/VERCEL_DEPLOYMENT.md)
+4. **Database**: Run `database/supabase-schema.sql` in Supabase SQL Editor
+
+### Environment Variables
+See deployment guides for complete environment variable setup.
 
 ## License
 
